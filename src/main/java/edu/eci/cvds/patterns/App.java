@@ -8,6 +8,10 @@ public class App
 {
     public static void main( String[] args )
     {
+        if (args.length <= 0) {
+            System.out.println("Nel pastel");
+            return;
+        }
         System.out.println( "Hello " + args[0]);
     }
 }

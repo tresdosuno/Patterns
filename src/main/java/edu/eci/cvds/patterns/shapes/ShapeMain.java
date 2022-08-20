@@ -12,7 +12,7 @@ public class ShapeMain {
 
             System.out.println(String.format("Successfully created a %s with %s sides.", type, shape.getNumberOfEdges()));
         } catch (IllegalArgumentException ex) {
-            System.err.println("Parameter" + args[0] + "is not valid RegularShapeType.");
+            System.err.println("Parameter " + args[0] + " is not valid RegularShapeType.");
             return;
         }
     }
